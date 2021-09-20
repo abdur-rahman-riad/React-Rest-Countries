@@ -1,0 +1,23 @@
+h2{
+    color: darkblue;
+}
+
+h2,h4{
+    margin: 5px 0;
+}
+p,h3{
+    margin: 0;
+}
+.single-country{
+    background-color: aquamarine;
+    padding: 10px;
+    width: 30%;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+img{
+    margin-top: 10px;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+}
