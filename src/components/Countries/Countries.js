@@ -14,9 +14,15 @@ const Countries = () => {
         <div>
             <h2>React Rest Countries API</h2>
             <h4>Available Country: {countries.length}</h4>
-            {
-                countries.map(country => <Country country={country} ></Country>)
-            }
+            <div className="countries-container">
+                {
+                    countries.map(country => <Country
+                        key={country.name}
+                        country={country}
+                    ></Country>)
+                }
+            </div>
+
         </div>
     );
 };
